@@ -48,3 +48,8 @@ function ENT:OnSpawn( PObj )
 
 	self:AddTrailerHitch( Vector(-89.12,0,37.03), LVS.HITCHTYPE_MALE )
 end
+
+-- set material on death
+function ENT:OnDestroyed()
+	self:SetMaterial("props/metal_damaged")
+end
