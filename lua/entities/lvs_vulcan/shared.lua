@@ -123,7 +123,7 @@ function ENT:InitWeapons()
 		if not Muzzle then return end
 
 		if vFireInstalled then
-			local fireball = CreateVFireBall(35, 15, Muzzle.Pos - Muzzle.Ang:Forward() * 16, self:GetVelocity() - Muzzle.Ang:Forward() * 1500, ent:GetDriver())
+			local fireball = CreateVFireBall(35, 15, Muzzle.Pos - Muzzle.Ang:Forward() * 16, self:GetVelocity() - Muzzle.Ang:Forward() * 2000, ent:GetDriver())
 		else
 			local bullet = {}
 			bullet.Src 	= Muzzle.Pos
