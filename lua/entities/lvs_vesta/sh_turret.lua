@@ -13,5 +13,7 @@ ENT.TurretPitchOffset = 0
 
 
 ENT.TurretYawPoseParameterName = "gun_yaw"
+ENT.TurretYawMin = -35
+ENT.TurretYawMax = 35
 ENT.TurretYawMul = 1
 ENT.TurretYawOffset = -10
